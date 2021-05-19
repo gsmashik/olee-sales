@@ -1,0 +1,13 @@
+{
+    "name": "olee/sales",
+    "description": "sales module",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+ "autoload": {
+            "psr-4": {
+                "Olee\\Sales\\": "src/"
+            }
+        }
+}

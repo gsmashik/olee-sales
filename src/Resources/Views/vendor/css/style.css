@@ -1,0 +1,43 @@
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(0.5em + .75rem + 2px);
+  padding: 0px 0px !important;
+  
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.table td, .table th {
+  padding: .1rem;
+  vertical-align: middle;
+
+}
+
+/* Font Awesome Icon Inside Input */
+.errspan {
+  float: right;
+  margin-right: 6px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 2;
+  color: rgb(104, 98, 98);
+}
+
+
+
+
+/* Alert */
+.alert {padding: 0px 0px !important;}
+.alert-dismissible .close{padding: 0px 0px !important;}
+
+table.dataTable tbody th, table.dataTable tbody td {
+  padding: 0px 0px;
+}
